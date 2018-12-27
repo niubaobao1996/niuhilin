@@ -1,0 +1,46 @@
+<!--pages/all_courses /index.wxml-->
+<view class="placeholder"></view>  <!--最上方状态栏-->
+<view class='container'>
+    <view class='page_title'>
+      <image class='back' src='/img/back.png'></image>
+      <text class='info'>全部课程</text>
+    </view>
+    <view class='second-tab'>
+      <view>NEW</view>
+      <view class='active'>ALL</view>
+      <view><image class='stab-img' src='/img/as.png'></image></view>
+    </view>
+</view>
+<view class='kc'>
+   <text class='time'>12.26</text>
+   <text class='xx'>“种族主义者"一个不为人知的真相</text>
+</view>
+<view class='kc'>
+   <text class='time'>12.25</text>
+   <text class='xx'>比尔盖茨2018书单分享</text>
+   <image class='kc-img' src='/img/zx.png'></image>
+</view>
+<view class='kc'>
+   <text class='time'>12.24</text>
+   <text class='xx'>经典圣诞歌曲都在这里了</text>
+   <image class='kc-img' src='/img/zx.png'></image>
+</view>
+<view class='kc'>
+   <text class='time'>12.23</text>
+   <text class='xx'>《卫报》：我们正面临着第六次大灭绝吗？</text>
+   <image class='kc-img' src='/img/zx.png'></image>
+</view>
+<view class='kc'>
+   <text class='time'>12.22</text>
+   <text class='xx'>《蜘蛛侠：平行世界》体验报告：这是你从没看过的全新版本</text>
+   <image class='kc-img' src='/img/zx.png'></image>
+</view>
+<view class='kc'>
+   <text class='time'>12.21</text>
+   <text class='xx'>超半数”95后“想从事的职业，真的赚钱吗？</text>
+   <image class='kc-img' src='/img/zx.png'></image>
+</view>
+<view class='kc'>
+   <text class='time'>12.20</text>
+   <text class='xx'>韩国社会怎么就”厌女“了？</text>
+</view>

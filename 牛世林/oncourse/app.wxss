@@ -1,0 +1,20 @@
+/**app.wxss**/
+page{
+
+font-family: 微软雅黑;
+}
+.container {
+  margin-top: 1.5em;
+  height: 100%;
+  width: 100%;
+} 
+.placeholder{
+  height: 1.5em;
+  background: #000;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  left: 0;
+  top: 0;
+}
+

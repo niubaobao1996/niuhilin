@@ -1,0 +1,86 @@
+/* pages/all_courses /index.wxss */
+page{
+  background-color: #e8e8e8;
+}
+.page_title{
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+  height: 2.5em;
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  left: 0em;
+  top: 1.5em;
+}
+
+.page_title .back{
+ width: 1.5em;
+ height: 1.5em;
+position: absolute;
+left: 0.5em;
+top: 0.5em;
+}
+.page_title .info{
+line-height:2.5em;
+}
+
+.second-tab{
+display: flex;
+flex-direction: row;
+height: 2.3em;
+box-shadow: 0px 0px 3px #e8e8e8;/****jiayinying*******/
+background: white;
+margin-top: 4em;
+margin-bottom: 1em;
+
+}
+.second-tab > view{
+  width: 50%;
+  text-align: center;
+  line-height: 2.3em;
+  font-size: 15px;
+  color: #888888;
+  padding-top: 2px;
+}
+.second-tab > view.active{
+  border-bottom: 3px solid #ffc12b;
+  width: 25%;
+  color:black;
+}
+.second-tab .stab-img{
+  width: 1.8em;
+  height: 1.8em;
+  margin-top: 0.5em;
+}
+.kc{
+  width: 90%;
+  height: 100px;
+  margin-left: 5%;
+  margin-top: 3%;
+  background: white;
+}
+.kc .time{
+  display: block;
+  font-size: 19px;
+  font-weight: bold;
+  padding-left: 5%;
+  padding-top: 16px;
+  padding-right: 20%;
+}
+.kc .xx{
+  font-size: 15px;
+  display: block;
+  height: 40px;
+  margin-top: 8px;
+  padding-left: 3%;
+  padding-right: 16%;
+
+}
+.kc .kc-img{
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -65px;
+  left: 84%;
+}

@@ -1,0 +1,40 @@
+<!--pages/ contents/index.wxml-->
+<view class="placeholder"></view>  <!--最上方状态栏-->
+<view class='container'>
+    <view class='page_title'>
+      <image class='back' src='/img/back.png'></image>
+      <text class='info'>课程内容</text>
+    </view>
+</view>
+
+<view class='bod'>
+  <image class='bod_img' src='/img/xdd.jpg'></image>
+  <text class='bod_txt'>"大船"和“风浪”——学习习近平总书记的合作共赢金句</text>
+  <text class='bod_time'>国际在线 2018.12.12</text>
+</view>
+<view class='bod_1'>
+ <image class='bod_1img' src='/img/photo.png'></image>
+   <text class='bod_1txt'>国际快线</text>
+   <text class='bod_1txt1'>清华大学工学硕士</text>
+   <view class='bod_1txt2'>金牌讲师</view>
+
+</view>
+<view class='bod_2'>
+ <image class='bod_img' src='/img/read.png'></image>
+ <text class='bod_title'>今日导读</text>
+</view>
+
+<view class='hx'></view>
+<view class='bod_4'>
+  <rich-text class='bod_4txt'>WXSS(WeiXin Style Sheets)是一套样式语言，用于描述 WXML 的组件样式。WXSS 用来决定 WXML 的组件应该怎么显示。为了适应广大的前端开发者，WXSS 具有 CSS 大部分特性。同时为了更适合开发微信小程序，WXSS 对 CSS 进行了扩充以及修改。</rich-text>
+  <rich-text class='bod_4txt'>WXSS(WeiXin Style Sheets)是一套样式语言，用于描述 WXML 的组件样式。WXSS 用来决定 WXML 的组件应该怎么显示。为了适应广大的前端开发者，WXSS 具有 CSS 大部分特性。同时为了更适合开发微信小程序，WXSS 对 CSS 进行了扩充以及修改。</rich-text>
+  <rich-text class='bod_4txt'>WXSS(WeiXin Style Sheets)是一套样式语言，用于描述 WXML 的组件样式。WXSS 用来决定 WXML 的组件应该怎么显示。为了适应广大的前端开发者，WXSS 具有 CSS 大部分特性。同时为了更适合开发微信小程序，WXSS 对 CSS 进行了扩充以及修改。</rich-text>
+</view>
+<view class='buttom'>
+  <text class='time1'>00:00</text>
+  <progress class="buttom_progress" stroke-width="3" percent="20" activeColor='#FFC02B'></progress>
+  <text class='time2'>22:00</text>
+  <image class='but_bf' src='/img/play.png'></image>
+  <image class='but_fh' src='/img/back10.png'></image>
+  <image class='but_kj' src='/img/forward10.png'></image>
+</view>

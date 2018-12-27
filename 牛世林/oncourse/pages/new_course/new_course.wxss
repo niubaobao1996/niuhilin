@@ -1,0 +1,151 @@
+/* pages/new_course/new_course.wxss */
+page{
+  background: #e8e8e8;
+}
+.page_title{
+  text-align: center;
+  border-bottom: 1px solid #e8e8e8;
+  height: 2.5em;
+  position: relative;
+  background: white;
+}
+
+.page_title .back{
+ width: 1.5em;
+ height: 1.5em;
+position: absolute;
+left: 0.5em;
+top: 0.5em;
+}
+.page_title .info{
+line-height:2.5em;
+}
+.second-tab{
+display: flex;
+flex-direction: row;
+height: 2.3em;
+box-shadow: 0px 0px 3px #e8e8e8;/****jiayinying*******/
+background: white;
+}
+.second-tab > view{
+  width: 50%;
+  text-align: center;
+  line-height: 2.3em;
+}
+.second-tab > view.active{
+  border-bottom: 3px solid #ffc12b;
+}
+/*
+.bod{
+   position: relative;
+  text-align: center;
+}
+.bod_Img{
+  
+  margin-top: 50px;
+  margin-left: 15%;
+  background: white;
+
+  height: 400px;
+  width: 69%;
+  box-shadow:5px 5px 10px #817777;
+}
+.bod_Img .bodimg{
+  border-radius: 5px;
+  width: 100%;
+  height: 150px;
+}
+.bod_Img .time{
+  font-size: 13px;
+  font-weight: bold;
+}
+.txt_box{
+  margin-top: 5px;
+  padding: 10px;
+  text-align: left;
+}
+.txt_box .txt{
+  font-size: 17px;
+  font-family: 楷体;
+  font-weight: bold;
+  
+}
+.but_xx{
+  width: 40%;
+  height: 40px;
+  background: #42323C;
+  position: relative;
+  margin-left: 30%;
+  border-radius: 20px;
+  margin-top: 10px;
+  }
+  .but_xx .xx{
+    text-align: center;
+    line-height: 40px;
+    color: white;
+  }
+  .but_dk{
+  width: 40%;
+  height: 40px;
+  background: #FCC223;
+  position: relative;
+  margin-left: 30%;
+  border-radius: 20px;
+  margin-top: 10px;
+  }
+  .but_dk .dk{
+    text-align: center;
+    line-height: 40px;
+  }
+*/
+
+
+  .course_detail{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding-bottom: 0.8em;
+    background: white;
+    box-shadow: 4px 6px 20px #646464;
+  }
+   .course_detail .course_wrapper{
+     width: 100%;
+     height: 180px;
+   }
+   .course_detail .publish_date{
+     display: block;
+     line-height: 4em;
+     text-align: center;
+     font-size: 14px;
+     font-weight: bold;
+   }
+   .course_detail .course_title{
+     
+     letter-spacing: 0.1em;
+     margin-bottom: 2em;
+     padding: 0 0.5em;
+     line-height: 1.5em;
+   }
+   .btn_box .btn{
+     width: 120px;
+     margin: 20px auto;
+     text-align: center;
+     line-height: 3em;
+     font-size: 13px;
+     border-radius: 36px;
+   }
+   .btn_box .btn.learn_btn{
+     background: #42323C;
+     color: white;
+     font-weight: bold;
+     border: 1px solid #222;
+     
+   }
+   .btn_box .btn.card_btn{
+     background: #FCC223;
+     font-weight: bold;
+     border: 1px solid rgb(253, 191, 19);
+   }
+   
